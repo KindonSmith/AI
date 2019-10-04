@@ -1,0 +1,11 @@
+Kindon Smith and Riley Honbo
+Assignment 3: MCTS: Tic-Tac-Toe
+
+Analysis of Experiment 1:
+
+When vanilla bot plays against itself, the score is close to a 50-50 win ratio.
+There wasn't any ties, but a fair score between both players. The tree size
+didn't seem to matter all that much, both bots had fairly equal scores
+because each bot searched the same amount.
+We had one outlier at the 75 node count, however it is within an acceptable range
+considering that outputs with both higher and lower node counts tended towards 50%.

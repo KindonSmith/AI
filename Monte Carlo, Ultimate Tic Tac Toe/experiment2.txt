@@ -1,0 +1,8 @@
+Kindon Smith and Riley Honbo
+Assignment 3: MCTS: Tic-Tac-Toe
+Analysis of Experiment 2:
+
+mcts_modified always beat mcts_vanilla, unless it has a singificantly smaller search tree
+size. When mcts_modified plays against vanilla, it has a higher win rate when mcts_modified
+has a higher search tree than vanilla. It still wins on equal search tree sizes, but
+there is a noticeable increase.

@@ -1,0 +1,9 @@
+Kindon Smith and Riley Honbo
+Assignment 3: MCTS: Tic-Tac-Toe
+
+ucb1 is our heuristic modification of mcts_vanilla. It allows the traverse_nodes method
+to choose the next move based on a factor of exploration and exploitation as opposed to
+a random function.
+The exploration and exploitation factor returned from hcb1 takes into account how far down
+the tree has been explored, favoring unexplored leaves higher in the tree over high win count
+nodes farther down.
